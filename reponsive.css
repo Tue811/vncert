@@ -1,0 +1,368 @@
+@media only screen and (max-width: 600px){
+    .hidden-mobile
+    {
+        display: none !important;
+    }
+    .disable-scroll {margin: 0; height: 100%; overflow: hidden}
+    .show-mobile
+    {
+        display: block;
+    }
+    .nav-header-mobile
+    {
+        position: absolute;
+        left: -100%;
+        width: 0;
+
+    }
+    header i{
+        color: #fff;
+    }
+    header.header .container__header img
+    {
+        width: 100px;
+        height: auto;
+    }
+    .nav-header-mobile img
+    {
+        width: 150px;
+        height: auto;
+    }
+    .nav-header-mobile ul li
+    {
+        margin: 1rem 0;
+    }
+
+    .nav-header-mobile ul li a{
+        color: black;
+        font-weight: 500;
+    }
+    .nav-header-mobile.active-menu
+    {
+        position: fixed;
+        top:0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        left: 0;
+        width: 50%;
+        transition: all .5s ease-in-out;
+        min-height: 100vh;
+        z-index: 99;
+        height: 100%;
+        background-color: #fff;
+    }
+    .header.header
+    {
+        background-color: rgba(0, 0, 0, .7);
+    }
+    header.header .container__header
+    {
+        justify-content: start;
+    }
+    .menu-icon-mobile
+    {
+        font-size: 2rem;
+      padding-left: 1rem;
+    }
+    .overlay-bg
+    {
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, .7);
+    }
+
+    section.section_baner{
+        height: 500px;
+    }
+
+    section.section_baner h1{
+        font-size: 3rem;
+        width: 100%;
+        padding: 25% 10% 5% 10%;
+    }
+    section.section_baner img{
+        width: 50%;
+    }
+
+    .section_info{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section_info .tilte h1{
+        display: none;
+    }
+
+    .info_general,.info_private{
+        flex-direction: column;
+    }
+
+    .tilte{
+        width: 100%;
+    }
+
+    .tilte img {
+        width: 30%;
+        align-items: center;
+        padding: 3%;
+    }
+
+    .detail{
+        width: 100%;
+    }
+
+    .detail p{
+        width: 100%;
+        padding: 0 5%;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .section_benifit h1{
+    width: 70%;
+    font-size: 25px;
+    }
+    .section_benifit-detail{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .benifit_detail{
+        width: 100%;
+        padding: 5%;
+    }
+    .benifit_detail h2{
+        font-size: 18px;
+    }
+    .section_container section.section_countdown h1 {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    section.section_countdown .countdown{
+        padding: 2rem 0;
+    }
+
+    section.section_countdown .countdown .flip-clock-wrapper .flip-wrapper .flip{
+        width: 4rem;
+    }
+
+    .section_form h1{
+        font-size: 30px;
+    }
+
+    .field__label-wrap{
+        font-size: 14px;
+    }
+
+    .linktr__goal{
+        font-size: 14px;
+    }
+
+    .image_round{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding: 0;
+        gap:0;
+    }
+    .image_round img.absolute-center{
+        display: none;
+    }
+
+    .image_round img{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .section_map iframe{
+        height: 100%;
+    }
+
+
+    footer{
+        padding: 0;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .footer-row .container > div{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    div.container.flex {
+        display: flex;
+        flex-direction: column;
+        padding-left: 3%;
+        line-height: 40px;
+    }
+
+    .footer-social{
+        justify-content: start;
+    }
+
+    .copyright{
+        text-align: center;
+        padding: 5%;
+    }
+
+    .footer-social i{
+        font-size: 18px;
+        padding-top: 3%;
+    }
+
+    div.container.flex{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 601px ) and (max-width: 767px){
+
+    header.header .nav-header > ul > li > a, header.header .nav-header > ul > li > p{
+        font-size: 14px;
+    }
+    section.section_baner h1{
+        font-size: 3.5rem;
+        width: 70%;
+        padding-top: 15%;
+    }
+
+    section.section_baner img{
+        width: 50%;
+    }
+
+    .section_info{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section_info .tilte h1{
+        font-size: 28px;
+    }
+
+    .info_general,.info_private{
+        flex-direction: column;
+    }
+
+
+    .tilte{
+        width: 100%;
+    }
+
+    .tilte img {
+        display: none;
+    }
+
+    .detail{
+        width: 100%;
+    }
+
+    .detail p{
+        width: 100%;
+        padding: 0 5%;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .section_benifit h1{
+        font-size: 28px;
+    }
+
+    .benifit_detail h2{
+        font-size: 18px;
+    }
+
+    .benifit_detail p{
+        font-size: 14px;
+    }
+
+    .benifit_detail {
+        margin-left: 3%;
+    }
+
+    section.section_countdown h1{
+        font-size: 32px;
+        width: 70%;
+    }
+
+    section.section_countdown .countdown .flip-clock-wrapper .flip-wrapper .flip{
+        width: 6rem;
+    }
+
+    section.section_countdown .countdown{
+        padding-top: 2rem
+    }
+
+    .section_form h1{
+        font-size: 32px;
+    }
+
+    .image_round{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding: 0;
+    }
+    .image_round img.absolute-center{
+        display: none;
+    }
+
+    .image_round img{
+        width: 100%;
+    }
+
+    footer {
+        padding: 0 0 40px 3%;
+    }
+
+    .footer-social{
+        gap: 30px;
+    }
+
+    .flex .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    section.section_baner h1{
+        font-size: 4rem;
+        padding: 10% 0 0 10%;
+        width: 70%;
+    }
+
+    section.section_baner img{
+    margin-left: 10%;
+    padding-top: 3%;
+    }
+
+    .tilte h1{
+        font-size: 2.5rem;
+        width: 90%;
+    }
+
+    .detail p{
+        width: 90%;
+    }
+
+    section.section_countdown h1{
+        width: 70%;
+    }
+
+    .image_round img{
+        width: calc(100%/3);
+    }
+}
