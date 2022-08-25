@@ -25,6 +25,10 @@ li {
 a {
     text-decoration: none;
 }
+.active-menu::before
+{
+    width:100% !important;
+}
 .flex
 {
   display: flex;

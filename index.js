@@ -19,5 +19,18 @@ function showMenu()
     menuIcon.style.display = "none";
     overlayBg.style.display = "block";
 }
-const headerNavbarLinkEl =  document.querySelectorAll(".nav-header__link")
-console.log(headerNavbarLinkEl)
+const tueXg = document.getElementsByClassName("menu-item");
+for(let i=0;i<tueXg.length;i++)
+{
+    tueXg[i].addEventListener("click", function(){
+        activeMenu(i)
+    });
+}
+function activeMenu(items)
+{
+    for(let i=0;i<tueXg.length;i++)
+    {
+        tueXg[i].classList.remove("active-menu");
+    }
+    tueXg[items].classList.add("active-menu");
+}
