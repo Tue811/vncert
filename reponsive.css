@@ -322,6 +322,7 @@
 
     .image_round img{
         width: 100%;
+        height: auto;
     }
 
     footer {
@@ -365,5 +366,6 @@
 
     .image_round img{
         width: calc(100%/3);
+        height: auto;
     }
 }
