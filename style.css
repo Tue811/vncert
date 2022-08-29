@@ -27,7 +27,7 @@ a {
 }
 .active-menu::before
 {
-    width:100% !important;
+  width: 100% !important;
 }
 .flex
 {
@@ -782,8 +782,10 @@ section.section_countdown .container li > span {
     display: flex;
     justify-content: end;
     padding-right: 30px;
-    gap:40px
+    gap:40px;
+
   }
   .footer-social i {
     font-size: 1.5rem;
+    color: black;
   }

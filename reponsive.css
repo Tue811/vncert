@@ -180,6 +180,7 @@
 
     .image_round img{
         width: 100%;
+        height: auto;
         padding: 5%;
     }
 
