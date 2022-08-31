@@ -45,6 +45,11 @@ rem  = kích cỡ text của body
 {
  color:#fff
 }
+
+.favicon{
+  font-size: 50px;
+}
+
 /* phần header */
 header.header {
     width: 100%;
@@ -237,7 +242,7 @@ section.section_baner .banner_container .arrow-banner:hover {
     background-image: linear-gradient(#384d8d, #0e162a);
     width: 100%;
     height: auto;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     color: #fff;
 }
 
@@ -253,19 +258,28 @@ section.section_baner .banner_container .arrow-banner:hover {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .benifit_detail{
-    width: 25%;
+    width: 30%;
+    padding-bottom: 5%;
+
 }
 
 .benifit_detail h2{
   font-weight: 25px;
 }
 
+.benifit_detail i{
+  font-size: 30px;
+}
+
 .benifit_detail p{
     color: #fff;
     font-weight: 400;
+    text-align: justify;
+
 }
 
 /* phần countdown*/
